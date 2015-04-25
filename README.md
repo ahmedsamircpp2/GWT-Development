@@ -1,9 +1,9 @@
 # GWT-Development version [0]
 Technology used :
 
-IDE: eclipse Luna Service Release 2 (4.4.2)
-Jar Management : Apache Maven
-Web Technology : GWT,GWTP,CSS
+IDE: eclipse Luna Service Release 2 (4.4.2) \n
+Jar Management : Apache Maven \n
+Web Technology : GWT,GWTP,CSS  \n
 
 
 Versions
