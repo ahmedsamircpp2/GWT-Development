@@ -1,0 +1,50 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:dp="urn:import:com.google.gwt.user.datepicker.client" >
+	<ui:style>
+	.gwt-Button{
+	
+		padding: 10px 22px !important;
+		
+	}
+	</ui:style>
+	<g:HTMLPanel ui:field="mainPanel">
+		<div class="container">
+
+
+
+
+			<div id="container_demo">
+				<!-- hidden anchor to stop jump http://www.css3create.com/Astuce-Empecher-le-scroll-avec-l-utilisation-de-target#wrap4 -->
+
+
+				<div id="wrapper">
+					<div id="login" class="animate form">
+
+						<h1>Reset Form</h1>
+						<p>
+							<label for="username" class="uname" data-icon="u"> Name </label>
+							<g:TextBox ui:field="name">
+
+							</g:TextBox>
+						</p>
+						<p>
+							<label for="date" class="youmail" data-icon="e"> Started
+							</label>
+							<g:TextBox ui:field="dateValue">
+
+							</g:TextBox>
+							
+						</p>
+
+						<p class="login button">
+							<g:Button ui:field="login"  ></g:Button>
+						</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</g:HTMLPanel>
+</ui:UiBinder>

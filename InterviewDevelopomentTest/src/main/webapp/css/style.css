@@ -1,0 +1,133 @@
+html
+{ height: 100% !important; }
+
+*
+{ margin: 0 ; 
+  padding: 0 ;  }
+
+body
+{  font: normal 85% Arial, Helvetica, sans-serif !important;
+   background: #1d1d1d url(../images/background.jpg) repeat !important;
+   color: #fff !important ;
+}
+
+
+
+img
+{ border: 0 !important ;}
+
+h1, h2, h3, h4, h5, h6 
+{ font: normal 175% Arial, Helvetica, sans-serif;
+  color: #FFF;
+  text-shadow: 0px 1px 0px #000;
+  letter-spacing: -1px;
+  margin: 0 0 10px 0;}
+
+a
+{ color: #FFF;
+  font-weight: bold;
+  background: transparent;
+  outline: none;
+  text-decoration: underline;}
+
+a:hover
+{ text-decoration: none;}
+
+ul
+{ margin: 2px 0 22px 30px;
+  line-height: 1.7em;
+  font-style: normal;
+  font-size: 100%;}
+
+ol
+{ margin: 8px 0 22px 20px;}
+
+ol li
+{ margin: 0 0 11px 0;}
+
+#main, #header, #banner, #menubar, #site_content, #footer, #content_blue
+{ margin-left: auto; 
+  margin-right: auto;
+  }
+
+#main
+{ background: transparent;border:  medium ;
+height: 500px;
+}
+
+#menubar
+{ width: 960px;
+  height: 50px;
+  margin-top: 50px;  } 
+  
+#welcome
+{ width: 360px;
+  float: left;
+  text-align: center;
+  height: 45px;
+  margin: 0 auto;
+  padding-left: 20px;
+  background: transparent;}  
+   
+#welcome h1 a
+{ font: normal 150% Arial, Helvetica, sans-serif;
+  letter-spacing: -3px;
+  color: #FFF;
+  text-decoration: none;
+  text-shadow: 1px 1px #000;  }
+  
+#menu_items
+{ float: right;
+  width: 560px;}
+  
+ul#menu
+{ margin:0;
+  float: right;}
+
+ul#menu li
+{ padding: 0 0 0 0px;
+  list-style: none;
+  margin: 2px 0 0 0;
+  display: inline;
+  background: transparent;}
+
+ul#menu li a
+{ float: left;
+  font: bold 120% Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #FFF;
+  text-decoration: none;
+  height: 24px;
+  text-shadow: 1px 1px #000;
+  padding: 16px 15px 10px 15px;
+  background: transparent; } 
+  
+ul#menu li.current a, ul#menu li:hover a
+{ color: #C56B85;
+  text-shadow: 1px 1px #000;}
+
+#site_content
+{ width: 940px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0 0 20px 20px;} 
+
+
+#footer
+{ width: 960px;
+  height: 20px;
+  padding-top: 20px;
+  text-align: center; 
+  background: transparent;
+  color: #FFF;
+  text-shadow: 0px 1px 0px #000;}
+
+#footer a, #footer a:hover
+{ color: #FFF;
+  text-shadow: 0px 1px 0px #000;
+  text-decoration: none;
+  padding-bottom: 20px;}
+
+#footer a:hover
+{ text-decoration: underline;}
+  
